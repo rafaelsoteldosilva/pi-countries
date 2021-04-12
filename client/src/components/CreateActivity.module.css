@@ -1,0 +1,39 @@
+.danger {
+    border: 4px solid red;
+}
+
+.redText {
+    color: red;
+}
+
+.createActivity {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.formItem {
+    margin: 5px;
+}
+
+.inputField {
+    width: 100px;
+}
+
+.optionCountries {
+    display: flex;
+    align-items: center;
+}
+
+.optionCountries button,
+.optionCountries select {
+    margin-left: 5px;
+}
+
+.iconAddButton {
+    margin-left: 100px;
+}
+
+.submit {
+    margin: 20px;
+}

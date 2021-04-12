@@ -1,0 +1,59 @@
+:root {
+    --teal: teal;
+}
+
+.countryCardsAndActivities {
+    display: flex;
+    /* grid-template-columns: repeat(6, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    grid-gap: 10px; */
+}
+
+.countryCards {
+    /* grid-column: 1 / 6; */
+    /* width: 80%; */
+    height: 100%;
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    /* position: absolute; */
+    top: 7em;
+    /* z-index: -1; */
+}
+
+.eachActivity {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    border: 1px solid var(--teal)
+}
+
+.eachActivity ul li {
+    list-style-type: none;
+    align-self: center;
+    /* cursor: pointer; */
+    margin: 2px;
+}
+
+.iconImage {
+    width: 130px;
+    height: auto;
+}
+
+.activityTypesSideBar {
+    grid-column: 6 / 7;
+    /* width: 20%; */
+    /* display: flex;
+    flex-direction: column; */
+}
+
+.oneCountry {
+    width: 100%;
+    height: 100%;
+    margin: 1em;
+}
+
+.toolBar {
+    margin: 1.5em;
+    padding: 1.5em;
+}

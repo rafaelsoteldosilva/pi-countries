@@ -1,0 +1,10 @@
+.ShowSplashWindowComponent {}
+
+.splashImage {
+    width: auto;
+    height: 300px;
+}
+
+.buttonEnter {
+    padding: 10px;
+}

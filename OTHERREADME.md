@@ -1,0 +1,1 @@
+- If there are more than five activities per country, the country card will get distorted

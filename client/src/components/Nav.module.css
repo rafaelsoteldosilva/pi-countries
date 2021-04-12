@@ -1,0 +1,13 @@
+.nav {
+    width: 20%;
+    position: absolute;
+    top: 2em;
+    margin-right: 20em;
+    margin-left: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.subNav {
+    padding: 0.1em;
+}

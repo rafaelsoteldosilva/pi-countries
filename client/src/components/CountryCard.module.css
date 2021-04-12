@@ -1,0 +1,67 @@
+:root {
+    --teal: teal;
+    --black: black;
+    --gray: gray;
+}
+
+.countryCard {
+    display: flex;
+    align-items: center;
+    width: 15em;
+    height: 7em;
+    border: 1px solid var(--teal);
+    box-shadow: 5px 5px 5px var(--gray);
+    margin: 10px;
+    cursor: pointer;
+}
+
+.countryCard:hover {
+    box-shadow: 2px 2px var(--gray);
+    fill: red;
+}
+
+.images {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin: 0.5em;
+}
+
+.flagImage {
+    width: 5em;
+    height: auto;
+    flex: 1;
+    align-self: flex-start;
+    margin: 0.5em;
+}
+
+.activityIcons {
+    display: flex;
+}
+
+.activityIconUrl {
+    width: 1.2em;
+    height: auto;
+}
+
+.associatedText {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    flex: 1;
+}
+
+.countryContinent,
+.countryName,
+.subRegion {
+    font-size: 60%;
+    font-weight: bold;
+}
+
+.countryContinent {
+    margin: -5px 0;
+}
+
+.countryPopulation {
+    font-size: 50%;
+}

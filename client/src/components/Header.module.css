@@ -1,0 +1,16 @@
+:root {
+    --white: white;
+    --teal: teal;
+}
+
+.header {
+    height: 3em;
+    width: 100%;
+    /* padding: 1em; */
+    text-align: left;
+    font-size: 2em;
+    background-color: var(--teal);
+    clip-path: polygon(0% 0%, 45% 0, 100% 0, 0 100%, 0% 100%);
+    color: var(--white);
+    position: relative;
+}
